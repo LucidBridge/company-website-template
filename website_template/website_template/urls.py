@@ -19,6 +19,6 @@ from website_template import views
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path(" ", views.home),
+    path("", views.home),
     path("garbage", views.home),
 ]
