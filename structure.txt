@@ -1,0 +1,4 @@
+1. Homepage
+2. About
+3. About me section for dev ppl
+4. projects list
