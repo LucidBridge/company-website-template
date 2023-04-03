@@ -20,5 +20,9 @@ from website_template import views
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", views.home),
-    path("garbage", views.home),
+    path("projects", views.projects_home),
+    path("about-us", views.about_me),
+    path("tutorials", views.tutorials),
+
+
 ]
